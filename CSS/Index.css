@@ -1,0 +1,118 @@
+.menu{
+list-style: none; 
+padding: auto;
+margin: 3em;
+}
+.menu li{
+   margin: 0;
+   padding: 0;
+   float: left;
+   display: flex;
+   
+   }
+.menu li a{
+   
+    padding: 1.5em 3em;
+    background-color: #2d39a771;
+    color: azure;
+    text-align: center;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+li a:hover{
+    background-color: firebrick;
+    
+}
+li a.active {
+    background-color: rgb(3, 1, 102);
+}
+table, th, td{
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+img{
+    width: 15%;
+    margin: 30px;    
+    border: 5px;
+
+
+       
+}
+.multicolumns{
+    margin: 0.2em;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    background-color: #fff;
+    border: solid  rgb(3, 1, 102);
+    padding: 2em;
+    border-radius: 10%;
+    width: 60%;
+  }
+
+body{
+    background-color: rgba(111, 160, 223, 0.164);
+    background-image: url('/Images/bakgrund.jpg');
+    background-size: auto;
+    display: inline-grid;
+}
+footer{
+    color: aliceblue;
+}
+.projects li{
+list-style: none;
+display: flex;
+
+}
+
+.Info table{
+orientation: left;
+}
+.overlay{
+visibility: hidden;    
+}
+.overlay:target{
+    visibility: visible;
+}
+.popup {
+
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+ul, h2, h3{
+    color: #fff;
+    text-decoration: none
+    
+    
+}
+.competencies{
+border: solidr rgb(3, 1, 102) 3em;
+background-color: #2d39a771;
+width: 15em;
+
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+
+
