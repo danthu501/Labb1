@@ -21,7 +21,7 @@ span.onclick = function(){
 });
 {
     const xml = new XMLHttpRequest();
-    xml.open('GET', '/Jsonfiles/Utbildning.json', true);
+    xml.open('GET', './Jsonfiles/Utbildning.json', true);
 
     xml.onload = function(){
         if(this.status===200){
@@ -47,7 +47,7 @@ span.onclick = function(){
 }
 {
 const xml = new XMLHttpRequest();
-xml.open('GET', '/Jsonfiles/Utbildning.json', true);
+xml.open('GET', './Jsonfiles/Utbildning.json', true);
 
 xml.onload = function(){
     if(this.status===200){
