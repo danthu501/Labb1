@@ -115,12 +115,11 @@ ul, h2, h3{
 }
 .competencies {
 border: solidr rgb(3, 1, 102) 3em;
-background-color: #2d39a771;
 width: 15em;
 left: 50%;
 right: 50%;
-margin: 5em;
-text-align: center;
+margin: 1em;
+text-align: left;
 }
 
 .article{
