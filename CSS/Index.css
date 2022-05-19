@@ -10,16 +10,14 @@ body{
 }
 
 .menu li{
-   margin: 0;
-   padding: 0;
-   float: left;
-   display: flex;
-   
-   }
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: flex;
+    }
 .menu li a{
-   
     padding: 1.5em 3em;
-    background-color: #2d39a771;
+    background-color: #0f1da0;
     color: azure;
     text-align: center;
     text-decoration: none;
@@ -39,13 +37,13 @@ table, th, td{
     border: solid 2px black;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    color: black;
+    color: #000000;
 }
+
 .article img {
     width: 15%;
-    margin: 5px;    
+    margin: 0.2em;    
     border: 5px solid black;
-       
 }
 .multicolumns{
     margin: 0.2em;
@@ -58,12 +56,13 @@ table, th, td{
     border-radius: 10%;
     width: 90%;
     font-family: 'Oswald', sans-serif;
+    margin-left: 5em;
 
-  }
+}
 
 body{
-    background-color: rgba(111, 160, 223, 0.164);
-    background-image: url('/Images/bakgrund.jpg');
+    background-color: #084c8f;
+    /*background-image: url('/Images/bakgrund.jpg');*/
     background-size: auto;
     display: inline-grid;
 }
@@ -74,12 +73,8 @@ footer{
 list-style: none;
 display: flex;
 float: left;
-
 }
 
-.Info table{
-orientation: left;
-}
 .overlay{
 visibility: hidden;    
 }
@@ -87,12 +82,16 @@ visibility: hidden;
     visibility: visible;
 }
 .popup {
-
     background: #fff;
     border-radius: 5px;
     width: 30%;
     position: relative;
     text-align: center;
+    border: 5px solid #000000;
+    z-index: 1;
+    align-items: center;
+
+
 }
 
 .popup .close {
@@ -104,7 +103,11 @@ visibility: hidden;
     font-weight: bold;
     text-decoration: none;
     color: #333;
+    cursor: pointer;
+
 }
+
+
 ul, h2, h3{
     color: #fff;
     text-decoration: none;
@@ -147,7 +150,6 @@ text-align: center;
     width: 30%;
     text-align: center;
     font-size: larger;
-   
 }
 .projects img{
     width: 200px;
@@ -157,8 +159,30 @@ text-align: center;
     margin: 5.5em;
 }
 table{
-    margin-left: 5.5em;
+    margin: 3em;
+    
 }
+.jsonload{
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    margin: 5em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: solid 2px black;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 2em;
+    float: left;
+    width: 75%;
+}
+
+#keyboard-input{
+    display: none;
+}
+
+
+
 
 
 

@@ -1,0 +1,53 @@
+
+{
+    "Utbildningarna":[
+    {
+    "Utbildningensnamn":"Enerigenkonomprogrammet",
+    "Datum": "2009-08",
+    "Beskrivning": "En utbildning där du förutom ekonomi även specialiserade sig inom energisektorn",
+    "Ort": "Varberg",
+    "BedrivenAv": "Högskolan i Halmstad",
+    "Examensdatum": "2012-06" 
+    },
+    {
+    "Utbildningensnamn":"Systemutvecklare .Net",
+    "Datum": "2021-08",
+    "Beskrivning": "Tvåårig utbildning i .Net",
+    "Ort": "Varberg",
+    "BedrivenAv": "Varbergs kommun",
+    "Examensdatum": "2023-06" 
+    }
+
+    ],
+    "Workexperience":[
+    {
+    "Befattning":"Brevbärare",
+    "Startdatum": "2014-04",
+    "Beskrivning": "Delar ut brev och paket både i stan och på landet",
+    "Ort": "Varberg",
+    "Arbetsgivare": "Postnord AB",
+    "Slutdatum": "Nuvarande anställning"
+
+    },
+    {
+    "Befattning":"Tidningsbud",
+    "Startdatum": "2011-06",
+    "Beskrivning": "Sommarjobb jag hade under en sommar när jag studerade på energiekonomprogrammet. Där delade jag ut morgontidningar med bil i Tvååker och utanför Frillesås.",
+    "Ort": "Varberg",
+    "Arbetsgivare": "Västsvensk tidningsdistribution",
+    "Slutdatum": "2011-08"
+    }
+    ]
+}   
+
+
+
+
+
+
+
+
+
+
+
+
